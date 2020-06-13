@@ -2,10 +2,13 @@
 void promedio(struct lista ){
 	int contador =0;
 	int suma = 0;
-	actual = malloc(sizeof(lista));
-	actual=primero;
-	while actual!=NULL{
-		
-	} 
+	float promedio=0;
+		for (x=0;x<lista->ultimo;x++){
+			
+			suma = suma + lista->arreglo[x];
+			contador= contador+1;
 
+	}
+	promedio= suma/contador; 
+	return promedio;
 }
